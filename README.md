@@ -55,3 +55,35 @@ Once you have the API key, open the views.py file and replace the placeholder YO
 ```bash
 newsapi = NewsApiClient(api_key='YOUR_API_KEY_HERE')
 ```
+
+### 5. Run the Django Development Server
+Now, you are ready to run the Django development server. Run the following command:
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+
+## Project Structure
+Here's an overview of the project folder structure:
+```bash
+Django-news-app/
+│
+├── newsapp/                     # Main app folder
+│   ├── migrations/               # Database migrations
+│   ├── templates/                # HTML files
+│   │   └── index.html            # Main template file
+│   ├── __init__.py               # Python package marker
+│   ├── admin.py                  # Admin configurations
+│   ├── apps.py                   # App configurations
+│   ├── models.py                 # Database models
+│   ├── tests.py                  # Unit tests
+│   └── views.py                  # Main logic for handling requests
+│
+├── manage.py                     # Django management file
+├── db.sqlite3                    # SQLite database file (used by default)
+└── README.md                     # Project README
+```
+
+## OUTPUT:
+![n1](https://github.com/user-attachments/assets/97e10fa6-8282-4670-96eb-7a5d9ed62626)
+![n2](https://github.com/user-attachments/assets/0c42fffb-e365-4031-87fc-5996b7d39eb5)
