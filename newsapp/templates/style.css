@@ -1,0 +1,51 @@
+/* General Body Styling */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    padding: 2rem 1rem;
+    background: linear-gradient(45deg, #007bff, #00bfff);
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* News Card Styling */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%; /* Ensures all cards have the same height */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Author Text */
+.card-text.text-muted {
+    font-size: 0.9rem;
+}
+
+/* Container Padding */
+.container {
+    padding-bottom: 2rem;
+}
