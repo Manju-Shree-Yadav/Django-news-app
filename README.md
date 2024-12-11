@@ -34,3 +34,24 @@ Change into the project directory:
 ```bash
 cd Django-news-app
 ```
+
+### 3. Set Up a Virtual Environment
+It's a good practice to set up a virtual environment to isolate your project dependencies. Use the following commands:
+
+For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+For macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 4. Set Up Your NewsAPI Key
+Visit NewsAPI to get an API key.
+Once you have the API key, open the views.py file and replace the placeholder YOUR_API_KEY_HERE with your actual API key:
+```bash
+newsapi = NewsApiClient(api_key='YOUR_API_KEY_HERE')
+```
