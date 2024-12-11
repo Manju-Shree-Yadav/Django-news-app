@@ -28,3 +28,8 @@ First, clone the repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/Manju-Shree-Yadav/Django-news-app.git
+
+### 2. Navigate to the Project Directory
+Change into the project directory:
+```bash
+cd Django-news-app
